@@ -3,7 +3,7 @@
 
 window.onload = function(){
 
-     divs = document.querySelectorAll(".alert");
+     var divs = document.querySelectorAll(".fa-close");
 
     for (i=0; i<divs.length; i++){
         divs[i].addEventListener("click", function(e){
