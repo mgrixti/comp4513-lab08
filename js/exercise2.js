@@ -1,6 +1,6 @@
 
 /* add your code for exercise 2 here */
-window.onload = function(){
+window.addEventListener("load", function(){
     var thumbs = document.querySelector("div#thumbnails");
 
     thumbs.addEventListener("click", function(e){
@@ -23,5 +23,4 @@ window.onload = function(){
         caption.style.opacity ='0';
     });
 
-
-};
+});
